@@ -1,0 +1,31 @@
+---
+name: "three"
+description: "print three"
+priority: 0
+condition: "number % 3 == 0"
+actions:
+  - "System.out.println(\"three\")"
+
+---
+name: "five"
+description: "print five"
+priority: 1
+condition: "number % 5 == 0"
+actions:
+  - "System.out.println(\"five\")"
+
+---
+name: "seven"
+description: "print seven"
+priority: 2
+condition: "number % 7 == 0"
+actions:
+  - "System.out.println(\"seven\")"
+
+---
+name: "itself"
+description: "print the number itself otherwise"
+priority: 3
+condition: "true"
+actions:
+  - "System.out.println(number)"
