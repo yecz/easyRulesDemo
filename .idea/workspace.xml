@@ -2,100 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12074ac-d41e-47bf-b34e-fe1cc36ff752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easyRulesDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/RuleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/RuleClientYml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/lock/AccountWithLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/lock/AddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/lock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/lock/MinusThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/product_consume/ConsumeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/product_consume/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/product_consume/ProductThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/product_consume/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reflect/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reflect/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/rules/RuleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/synchronize/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/synchronize/AddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/synchronize/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/synchronize/MinusThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/thread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/threadpool/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ymls/fizzbuzz.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ymls/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/easyRulesDemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/RuleClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/RuleClientYml.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/lock/AccountWithLock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/lock/AddThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/lock/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/lock/MinusThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/product_consume/ConsumeThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/product_consume/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/product_consume/ProductThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/product_consume/Store.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/proxy/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/proxy/MyInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/proxy/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/proxy/ServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/reference/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/reference/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/reflect/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/reflect/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/rules/RuleClass$BuzzRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/rules/RuleClass$FizzBuzzRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/rules/RuleClass$FizzRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/rules/RuleClass$NonFizzBuzzRule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/rules/RuleClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/synchronize/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/synchronize/AddThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/synchronize/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/synchronize/MinusThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/thread/Main$MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/thread/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/threadpool/Main$MyTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/threadpool/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ymls/fizzbuzz.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ymls/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -187,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="47">
               <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
@@ -324,6 +249,11 @@
             <path>
               <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,13 +294,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571132219871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571133128907" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3926755" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -489,12 +419,20 @@
       <workItem from="1565079754588" duration="8781000" />
       <workItem from="1570498054103" duration="15490000" />
       <workItem from="1570669570221" duration="3277000" />
-      <workItem from="1571131390337" duration="968000" />
+      <workItem from="1571131390337" duration="1757000" />
     </task>
+    <task id="LOCAL-00001" summary="demo">
+      <created>1571132385554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571132385554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28516000" />
+    <option name="totallyTimeSpent" value="29305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,6 +483,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/fizzbuzz.yml" />
@@ -834,7 +776,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="47">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
