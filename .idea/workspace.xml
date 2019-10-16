@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e12074ac-d41e-47bf-b34e-fe1cc36ff752" name="Default Changelist" comment="">
+    <list default="true" id="e12074ac-d41e-47bf-b34e-fe1cc36ff752" name="Default Changelist" comment="demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/MyInvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/Service.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,12 +79,363 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="235">
+              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://MAVEN/com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="711.583853499787" y="667.0">com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
+                <node x="302.5" y="455.0">org.jeasy:easy-rules-core:jar:3.2.0</node>
+                <node x="324.5" y="374.0">org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+                <node x="354.0993251173708" y="546.0">org.jeasy:easy-rules-support:jar:3.2.0</node>
+                <node x="113.5" y="546.0">org.jeasy:easy-rules-mvel:jar:3.2.0</node>
+                <node x="86.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5</node>
+                <node x="188.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18</node>
+                <node x="61.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+                <node x="0.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final</node>
+                <node x="1299.4629614810078" y="546.0">aopalliance:aopalliance:jar:1.0</node>
+                <node x="1060.6712948143409" y="374.0">org.springframework:spring-context:jar:4.3.18.RELEASE</node>
+                <node x="1000.380148314128" y="293.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE</node>
+                <node x="811.536398314128" y="192.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE</node>
+                <node x="845.9525448143411" y="81.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE</node>
+                <node x="826.4525448143411" y="0.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+                <node x="1129.3801483141278" y="293.0">org.springframework:spring-expression:jar:4.3.18.RELEASE</node>
+                <node x="1418.4629614810078" y="546.0">org.springframework:spring-instrument:jar:4.3.18.RELEASE</node>
+                <node x="516.0993251173709" y="546.0">org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE</node>
+                <node x="949.5838534997869" y="546.0">org.springframework:spring-jms:jar:4.3.18.RELEASE</node>
+                <node x="877.130148314128" y="455.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE</node>
+                <node x="750.130148314128" y="374.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE</node>
+                <node x="242.5" y="293.0">org.springframework:spring-oxm:jar:4.3.18.RELEASE</node>
+                <node x="716.0993251173709" y="546.0">org.springframework:spring-orm:jar:4.3.18.RELEASE</node>
+                <node x="682.630148314128" y="455.0">org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+                  <point x="45.666666666666686" y="-15.5" />
+                  <point x="991.2968149807946" y="430.0" />
+                  <point x="1080.0046281476743" y="430.0" />
+                  <point x="-38.66666666666663" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+                  <point x="22.545454545454504" y="-15.5" />
+                  <point x="796.1293080452415" y="617.0" />
+                  <point x="1288.9629614810076" y="617.0" />
+                  <point x="1288.9629614810076" y="430.0" />
+                  <point x="1157.3379614810076" y="430.0" />
+                  <point x="38.66666666666663" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-core:jar:3.2.0">
+                  <point x="-33.81818181818187" y="-15.5" />
+                  <point x="739.765671681605" y="627.0" />
+                  <point x="343.5993251173708" y="627.0" />
+                  <point x="343.5993251173708" y="526.0" />
+                  <point x="363.5" y="526.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+                  <point x="-39.16666666666663" y="-15.5" />
+                  <point x="957.4171868331202" y="526.0" />
+                  <point x="855.630148314128" y="526.0" />
+                  <point x="855.630148314128" y="430.0" />
+                  <point x="820.130148314128" y="430.0" />
+                  <point x="28.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="0.0" y="-15.5" />
+                  <point x="732.130148314128" y="430.0" />
+                  <point x="721.130148314128" y="430.0" />
+                  <point x="721.130148314128" y="253.0" />
+                  <point x="831.973898314128" y="253.0" />
+                  <point x="-34.0625" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18">
+                  <point x="44.5" y="-15.5" />
+                  <point x="219.5" y="430.0" />
+                  <point x="235.0" y="430.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="21.0" y="-15.5" />
+                  <point x="813.130148314128" y="349.0" />
+                  <point x="797.630148314128" y="349.0" />
+                  <point x="797.630148314128" y="263.0" />
+                  <point x="845.598898314128" y="263.0" />
+                  <point x="-20.4375" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="-45.666666666666686" y="-15.5" />
+                  <point x="899.9634816474613" y="430.0" />
+                  <point x="914.7129614810077" y="430.0" />
+                  <point x="914.7129614810077" y="273.0" />
+                  <point x="886.473898314128" y="273.0" />
+                  <point x="20.4375" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="14.5" y="-15.5" />
+                  <point x="1133.1712948143409" y="349.0" />
+                  <point x="1118.8801483141278" y="349.0" />
+                  <point x="1118.8801483141278" y="152.0" />
+                  <point x="920.9525448143411" y="152.0" />
+                  <point x="25.0" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final">
+                  <point x="-41.0" y="-15.5" />
+                  <point x="134.0" y="526.0" />
+                  <point x="33.0" y="526.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+                  <point x="23.5" y="-15.5" />
+                  <point x="1020.0838534997869" y="516.0" />
+                  <point x="1118.6712948143409" y="516.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="-24.75" y="-15.5" />
+                  <point x="267.25" y="132.0" />
+                  <point x="850.9525448143411" y="132.0" />
+                  <point x="-45.0" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-core:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25">
+                  <point x="0.0" y="-15.5" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+                  <point x="33.0" y="-15.5" />
+                  <point x="-28.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
+                  <point x="43.5" y="-15.5" />
+                  <point x="1162.1712948143409" y="349.0" />
+                  <point x="1163.6301483141278" y="349.0" />
+                  <point x="-34.25" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="-23.5" y="-15.5" />
+                  <point x="973.0838534997869" y="516.0" />
+                  <point x="866.630148314128" y="516.0" />
+                  <point x="866.630148314128" y="273.0" />
+                  <point x="872.848898314128" y="273.0" />
+                  <point x="6.8125" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.3.18.RELEASE">
+                  <point x="-45.09090909090912" y="-15.5" />
+                  <point x="728.4929444088777" y="637.0" />
+                  <point x="292.0" y="637.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="-24.249999999999943" y="-15.5" />
+                  <point x="1024.630148314128" y="263.0" />
+                  <point x="900.098898314128" y="263.0" />
+                  <point x="34.0625" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-support:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
+                  <point x="0.0" y="-15.5" />
+                  <point x="425.0993251173708" y="526.0" />
+                  <point x="404.16666666666663" y="526.0" />
+                  <point x="40.66666666666663" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="39.166666666666686" y="-15.5" />
+                  <point x="1035.7505201664535" y="526.0" />
+                  <point x="1276.8801483141278" y="526.0" />
+                  <point x="1276.8801483141278" y="132.0" />
+                  <point x="940.9525448143411" y="132.0" />
+                  <point x="45.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="aopalliance:aopalliance:jar:1.0">
+                  <point x="33.81818181818187" y="-15.5" />
+                  <point x="807.4020353179687" y="627.0" />
+                  <point x="1348.4629614810078" y="627.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="-33.0" y="-15.5" />
+                  <point x="699.130148314128" y="430.0" />
+                  <point x="692.3493251173709" y="430.0" />
+                  <point x="692.3493251173709" y="152.0" />
+                  <point x="870.9525448143411" y="152.0" />
+                  <point x="-25.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="24.250000000000057" y="-15.5" />
+                  <point x="1073.130148314128" y="162.0" />
+                  <point x="910.9525448143411" y="162.0" />
+                  <point x="15.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-mvel:jar:3.2.0">
+                  <point x="-56.363636363636374" y="-15.5" />
+                  <point x="717.2202171361505" y="647.0" />
+                  <point x="175.0" y="647.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
+                  <point x="7.833333333333314" y="-15.5" />
+                  <point x="1004.4171868331202" y="506.0" />
+                  <point x="1024.6301483141278" y="506.0" />
+                  <point x="-24.25" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="-21.0" y="-15.5" />
+                  <point x="771.130148314128" y="349.0" />
+                  <point x="786.630148314128" y="349.0" />
+                  <point x="786.630148314128" y="162.0" />
+                  <point x="880.9525448143411" y="162.0" />
+                  <point x="-15.0" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5">
+                  <point x="0.0" y="-15.5" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.3.18.RELEASE">
+                  <point x="56.363636363636374" y="-15.5" />
+                  <point x="829.9474898634232" y="647.0" />
+                  <point x="1485.9629614810078" y="647.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+                  <point x="12.25" y="-15.5" />
+                  <point x="777.3493251173709" y="526.0" />
+                  <point x="792.130148314128" y="526.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="0.0" y="-15.5" />
+                  <point x="945.630148314128" y="430.0" />
+                  <point x="931.036398314128" y="430.0" />
+                  <point x="931.036398314128" y="172.0" />
+                  <point x="900.9525448143411" y="172.0" />
+                  <point x="5.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="-14.5" y="-15.5" />
+                  <point x="1104.1712948143409" y="349.0" />
+                  <point x="1107.8801483141278" y="349.0" />
+                  <point x="1107.8801483141278" y="253.0" />
+                  <point x="913.723898314128" y="253.0" />
+                  <point x="47.6875" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="24.75" y="-15.5" />
+                  <point x="316.75" y="243.0" />
+                  <point x="818.348898314128" y="243.0" />
+                  <point x="-47.6875" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+                  <point x="-44.5" y="-15.5" />
+                  <point x="130.5" y="430.0" />
+                  <point x="115.0" y="430.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE">
+                  <point x="-7.833333333333314" y="-15.5" />
+                  <point x="988.7505201664536" y="506.0" />
+                  <point x="945.630148314128" y="506.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-support:jar:3.2.0">
+                  <point x="-22.545454545454504" y="-15.5" />
+                  <point x="751.0383989543325" y="617.0" />
+                  <point x="425.0993251173708" y="617.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
+                  <point x="41.0" y="-15.5" />
+                  <point x="216.0" y="526.0" />
+                  <point x="322.83333333333337" y="526.0" />
+                  <point x="-40.66666666666663" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="0.0" y="-15.5" />
+                  <point x="866.036398314128" y="172.0" />
+                  <point x="890.9525448143411" y="172.0" />
+                  <point x="-5.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.18.RELEASE">
+                  <point x="11.272727272727252" y="-15.5" />
+                  <point x="784.8565807725142" y="607.0" />
+                  <point x="996.5838534997869" y="607.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="-36.75" y="-15.5" />
+                  <point x="728.3493251173709" y="526.0" />
+                  <point x="643.3493251173709" y="526.0" />
+                  <point x="643.3493251173709" y="142.0" />
+                  <point x="860.9525448143411" y="142.0" />
+                  <point x="-35.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE">
+                  <point x="-12.25" y="-15.5" />
+                  <point x="752.8493251173709" y="516.0" />
+                  <point x="732.130148314128" y="516.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
+                  <point x="-43.5" y="-15.5" />
+                  <point x="1075.1712948143409" y="349.0" />
+                  <point x="1073.1301483141278" y="349.0" />
+                  <point x="24.25" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-expression:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+                  <point x="0.0" y="-15.5" />
+                  <point x="1197.8801483141278" y="142.0" />
+                  <point x="930.9525448143411" y="142.0" />
+                  <point x="35.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2">
+                  <point x="0.0" y="-15.5" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+                  <point x="36.75" y="-15.5" />
+                  <point x="801.8493251173709" y="526.0" />
+                  <point x="844.630148314128" y="526.0" />
+                  <point x="844.630148314128" y="273.0" />
+                  <point x="859.223898314128" y="273.0" />
+                  <point x="-6.8125" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE">
+                  <point x="-11.272727272727252" y="-15.5" />
+                  <point x="762.3111262270597" y="607.0" />
+                  <point x="606.0993251173709" y="607.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
+                  <point x="45.09090909090912" y="-15.5" />
+                  <point x="818.674762590696" y="637.0" />
+                  <point x="1407.9629614810078" y="637.0" />
+                  <point x="1407.9629614810078" y="349.0" />
+                  <point x="1232.1301483141278" y="349.0" />
+                  <point x="34.25" y="15.5" />
+                </edge>
+                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.18.RELEASE">
+                  <point x="0.0" y="-15.5" />
+                  <point x="773.583853499787" y="597.0" />
+                  <point x="765.0993251173709" y="597.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="743.5" y="452.0" />
+              <SelectedNodes>
+                <node>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -160,7 +482,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/RuleClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/rules/RuleClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/rules/RuleClient.java" />
@@ -193,6 +514,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -248,37 +570,6 @@
             </path>
             <path>
               <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -294,7 +585,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571133128907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571188027907" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -419,7 +710,7 @@
       <workItem from="1565079754588" duration="8781000" />
       <workItem from="1570498054103" duration="15490000" />
       <workItem from="1570669570221" duration="3277000" />
-      <workItem from="1571131390337" duration="1757000" />
+      <workItem from="1571131390337" duration="3201000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1571132385554</created>
@@ -428,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571132385554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="demo">
+      <created>1571133171983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571133171983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29305000" />
+    <option name="totallyTimeSpent" value="30749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,10 +762,10 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5229211" side_tool="true" visible="true" weight="0.36876357" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3329718" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47547975" weight="0.83206934" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" visible="true" weight="0.3329718" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -483,6 +781,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
@@ -776,8 +1100,357 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="235">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="711.583853499787" y="667.0">com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
+            <node x="302.5" y="455.0">org.jeasy:easy-rules-core:jar:3.2.0</node>
+            <node x="324.5" y="374.0">org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="354.0993251173708" y="546.0">org.jeasy:easy-rules-support:jar:3.2.0</node>
+            <node x="113.5" y="546.0">org.jeasy:easy-rules-mvel:jar:3.2.0</node>
+            <node x="86.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5</node>
+            <node x="188.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18</node>
+            <node x="61.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+            <node x="0.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final</node>
+            <node x="1299.4629614810078" y="546.0">aopalliance:aopalliance:jar:1.0</node>
+            <node x="1060.6712948143409" y="374.0">org.springframework:spring-context:jar:4.3.18.RELEASE</node>
+            <node x="1000.380148314128" y="293.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE</node>
+            <node x="811.536398314128" y="192.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE</node>
+            <node x="845.9525448143411" y="81.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE</node>
+            <node x="826.4525448143411" y="0.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1129.3801483141278" y="293.0">org.springframework:spring-expression:jar:4.3.18.RELEASE</node>
+            <node x="1418.4629614810078" y="546.0">org.springframework:spring-instrument:jar:4.3.18.RELEASE</node>
+            <node x="516.0993251173709" y="546.0">org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE</node>
+            <node x="949.5838534997869" y="546.0">org.springframework:spring-jms:jar:4.3.18.RELEASE</node>
+            <node x="877.130148314128" y="455.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE</node>
+            <node x="750.130148314128" y="374.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE</node>
+            <node x="242.5" y="293.0">org.springframework:spring-oxm:jar:4.3.18.RELEASE</node>
+            <node x="716.0993251173709" y="546.0">org.springframework:spring-orm:jar:4.3.18.RELEASE</node>
+            <node x="682.630148314128" y="455.0">org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+              <point x="45.666666666666686" y="-15.5" />
+              <point x="991.2968149807946" y="430.0" />
+              <point x="1080.0046281476743" y="430.0" />
+              <point x="-38.66666666666663" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+              <point x="22.545454545454504" y="-15.5" />
+              <point x="796.1293080452415" y="617.0" />
+              <point x="1288.9629614810076" y="617.0" />
+              <point x="1288.9629614810076" y="430.0" />
+              <point x="1157.3379614810076" y="430.0" />
+              <point x="38.66666666666663" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-core:jar:3.2.0">
+              <point x="-33.81818181818187" y="-15.5" />
+              <point x="739.765671681605" y="627.0" />
+              <point x="343.5993251173708" y="627.0" />
+              <point x="343.5993251173708" y="526.0" />
+              <point x="363.5" y="526.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+              <point x="-39.16666666666663" y="-15.5" />
+              <point x="957.4171868331202" y="526.0" />
+              <point x="855.630148314128" y="526.0" />
+              <point x="855.630148314128" y="430.0" />
+              <point x="820.130148314128" y="430.0" />
+              <point x="28.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="732.130148314128" y="430.0" />
+              <point x="721.130148314128" y="430.0" />
+              <point x="721.130148314128" y="253.0" />
+              <point x="831.973898314128" y="253.0" />
+              <point x="-34.0625" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18">
+              <point x="44.5" y="-15.5" />
+              <point x="219.5" y="430.0" />
+              <point x="235.0" y="430.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="21.0" y="-15.5" />
+              <point x="813.130148314128" y="349.0" />
+              <point x="797.630148314128" y="349.0" />
+              <point x="797.630148314128" y="263.0" />
+              <point x="845.598898314128" y="263.0" />
+              <point x="-20.4375" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="-45.666666666666686" y="-15.5" />
+              <point x="899.9634816474613" y="430.0" />
+              <point x="914.7129614810077" y="430.0" />
+              <point x="914.7129614810077" y="273.0" />
+              <point x="886.473898314128" y="273.0" />
+              <point x="20.4375" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="14.5" y="-15.5" />
+              <point x="1133.1712948143409" y="349.0" />
+              <point x="1118.8801483141278" y="349.0" />
+              <point x="1118.8801483141278" y="152.0" />
+              <point x="920.9525448143411" y="152.0" />
+              <point x="25.0" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final">
+              <point x="-41.0" y="-15.5" />
+              <point x="134.0" y="526.0" />
+              <point x="33.0" y="526.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+              <point x="23.5" y="-15.5" />
+              <point x="1020.0838534997869" y="516.0" />
+              <point x="1118.6712948143409" y="516.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="-24.75" y="-15.5" />
+              <point x="267.25" y="132.0" />
+              <point x="850.9525448143411" y="132.0" />
+              <point x="-45.0" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-core:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+              <point x="33.0" y="-15.5" />
+              <point x="-28.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
+              <point x="43.5" y="-15.5" />
+              <point x="1162.1712948143409" y="349.0" />
+              <point x="1163.6301483141278" y="349.0" />
+              <point x="-34.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="-23.5" y="-15.5" />
+              <point x="973.0838534997869" y="516.0" />
+              <point x="866.630148314128" y="516.0" />
+              <point x="866.630148314128" y="273.0" />
+              <point x="872.848898314128" y="273.0" />
+              <point x="6.8125" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.3.18.RELEASE">
+              <point x="-45.09090909090912" y="-15.5" />
+              <point x="728.4929444088777" y="637.0" />
+              <point x="292.0" y="637.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="-24.249999999999943" y="-15.5" />
+              <point x="1024.630148314128" y="263.0" />
+              <point x="900.098898314128" y="263.0" />
+              <point x="34.0625" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-support:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
+              <point x="0.0" y="-15.5" />
+              <point x="425.0993251173708" y="526.0" />
+              <point x="404.16666666666663" y="526.0" />
+              <point x="40.66666666666663" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="39.166666666666686" y="-15.5" />
+              <point x="1035.7505201664535" y="526.0" />
+              <point x="1276.8801483141278" y="526.0" />
+              <point x="1276.8801483141278" y="132.0" />
+              <point x="940.9525448143411" y="132.0" />
+              <point x="45.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="aopalliance:aopalliance:jar:1.0">
+              <point x="33.81818181818187" y="-15.5" />
+              <point x="807.4020353179687" y="627.0" />
+              <point x="1348.4629614810078" y="627.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="-33.0" y="-15.5" />
+              <point x="699.130148314128" y="430.0" />
+              <point x="692.3493251173709" y="430.0" />
+              <point x="692.3493251173709" y="152.0" />
+              <point x="870.9525448143411" y="152.0" />
+              <point x="-25.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="24.250000000000057" y="-15.5" />
+              <point x="1073.130148314128" y="162.0" />
+              <point x="910.9525448143411" y="162.0" />
+              <point x="15.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-mvel:jar:3.2.0">
+              <point x="-56.363636363636374" y="-15.5" />
+              <point x="717.2202171361505" y="647.0" />
+              <point x="175.0" y="647.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
+              <point x="7.833333333333314" y="-15.5" />
+              <point x="1004.4171868331202" y="506.0" />
+              <point x="1024.6301483141278" y="506.0" />
+              <point x="-24.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="-21.0" y="-15.5" />
+              <point x="771.130148314128" y="349.0" />
+              <point x="786.630148314128" y="349.0" />
+              <point x="786.630148314128" y="162.0" />
+              <point x="880.9525448143411" y="162.0" />
+              <point x="-15.0" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.3.18.RELEASE">
+              <point x="56.363636363636374" y="-15.5" />
+              <point x="829.9474898634232" y="647.0" />
+              <point x="1485.9629614810078" y="647.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
+              <point x="12.25" y="-15.5" />
+              <point x="777.3493251173709" y="526.0" />
+              <point x="792.130148314128" y="526.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="945.630148314128" y="430.0" />
+              <point x="931.036398314128" y="430.0" />
+              <point x="931.036398314128" y="172.0" />
+              <point x="900.9525448143411" y="172.0" />
+              <point x="5.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="-14.5" y="-15.5" />
+              <point x="1104.1712948143409" y="349.0" />
+              <point x="1107.8801483141278" y="349.0" />
+              <point x="1107.8801483141278" y="253.0" />
+              <point x="913.723898314128" y="253.0" />
+              <point x="47.6875" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="24.75" y="-15.5" />
+              <point x="316.75" y="243.0" />
+              <point x="818.348898314128" y="243.0" />
+              <point x="-47.6875" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
+              <point x="-44.5" y="-15.5" />
+              <point x="130.5" y="430.0" />
+              <point x="115.0" y="430.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE">
+              <point x="-7.833333333333314" y="-15.5" />
+              <point x="988.7505201664536" y="506.0" />
+              <point x="945.630148314128" y="506.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-support:jar:3.2.0">
+              <point x="-22.545454545454504" y="-15.5" />
+              <point x="751.0383989543325" y="617.0" />
+              <point x="425.0993251173708" y="617.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
+              <point x="41.0" y="-15.5" />
+              <point x="216.0" y="526.0" />
+              <point x="322.83333333333337" y="526.0" />
+              <point x="-40.66666666666663" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="866.036398314128" y="172.0" />
+              <point x="890.9525448143411" y="172.0" />
+              <point x="-5.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.18.RELEASE">
+              <point x="11.272727272727252" y="-15.5" />
+              <point x="784.8565807725142" y="607.0" />
+              <point x="996.5838534997869" y="607.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="-36.75" y="-15.5" />
+              <point x="728.3493251173709" y="526.0" />
+              <point x="643.3493251173709" y="526.0" />
+              <point x="643.3493251173709" y="142.0" />
+              <point x="860.9525448143411" y="142.0" />
+              <point x="-35.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE">
+              <point x="-12.25" y="-15.5" />
+              <point x="752.8493251173709" y="516.0" />
+              <point x="732.130148314128" y="516.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
+              <point x="-43.5" y="-15.5" />
+              <point x="1075.1712948143409" y="349.0" />
+              <point x="1073.1301483141278" y="349.0" />
+              <point x="24.25" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-expression:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="1197.8801483141278" y="142.0" />
+              <point x="930.9525448143411" y="142.0" />
+              <point x="35.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
+              <point x="36.75" y="-15.5" />
+              <point x="801.8493251173709" y="526.0" />
+              <point x="844.630148314128" y="526.0" />
+              <point x="844.630148314128" y="273.0" />
+              <point x="859.223898314128" y="273.0" />
+              <point x="-6.8125" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE">
+              <point x="-11.272727272727252" y="-15.5" />
+              <point x="762.3111262270597" y="607.0" />
+              <point x="606.0993251173709" y="607.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
+              <point x="45.09090909090912" y="-15.5" />
+              <point x="818.674762590696" y="637.0" />
+              <point x="1407.9629614810078" y="637.0" />
+              <point x="1407.9629614810078" y="349.0" />
+              <point x="1232.1301483141278" y="349.0" />
+              <point x="34.25" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.18.RELEASE">
+              <point x="0.0" y="-15.5" />
+              <point x="773.583853499787" y="597.0" />
+              <point x="765.0993251173709" y="597.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="743.5" y="452.0" />
+          <SelectedNodes>
+            <node>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
