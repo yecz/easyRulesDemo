@@ -1,0 +1,6 @@
+-Xms64m
+-Xmx64m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=e:\dump
+-Xloggc:e:\dump\gc.log
+-XX:+PrintGCDetails
