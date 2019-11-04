@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e12074ac-d41e-47bf-b34e-fe1cc36ff752" name="Default Changelist" comment="demo">
+    <list default="true" id="e12074ac-d41e-47bf-b34e-fe1cc36ff752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatAPIAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatURLAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/qlexpress/QLExpressFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xm/ssit/demo/countdownlatch/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,435 +27,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/ServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="263">
+              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="uml://MAVEN/com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="711.583853499787" y="667.0">com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
-                <node x="302.5" y="455.0">org.jeasy:easy-rules-core:jar:3.2.0</node>
-                <node x="324.5" y="374.0">org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-                <node x="354.0993251173708" y="546.0">org.jeasy:easy-rules-support:jar:3.2.0</node>
-                <node x="113.5" y="546.0">org.jeasy:easy-rules-mvel:jar:3.2.0</node>
-                <node x="86.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5</node>
-                <node x="188.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18</node>
-                <node x="61.5" y="374.0">org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-                <node x="0.0" y="455.0">org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final</node>
-                <node x="1299.4629614810078" y="546.0">aopalliance:aopalliance:jar:1.0</node>
-                <node x="1060.6712948143409" y="374.0">org.springframework:spring-context:jar:4.3.18.RELEASE</node>
-                <node x="1000.380148314128" y="293.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE</node>
-                <node x="811.536398314128" y="192.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE</node>
-                <node x="845.9525448143411" y="81.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE</node>
-                <node x="826.4525448143411" y="0.0">org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-                <node x="1129.3801483141278" y="293.0">org.springframework:spring-expression:jar:4.3.18.RELEASE</node>
-                <node x="1418.4629614810078" y="546.0">org.springframework:spring-instrument:jar:4.3.18.RELEASE</node>
-                <node x="516.0993251173709" y="546.0">org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE</node>
-                <node x="949.5838534997869" y="546.0">org.springframework:spring-jms:jar:4.3.18.RELEASE</node>
-                <node x="877.130148314128" y="455.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE</node>
-                <node x="750.130148314128" y="374.0">org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE</node>
-                <node x="242.5" y="293.0">org.springframework:spring-oxm:jar:4.3.18.RELEASE</node>
-                <node x="716.0993251173709" y="546.0">org.springframework:spring-orm:jar:4.3.18.RELEASE</node>
-                <node x="682.630148314128" y="455.0">org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
-                  <point x="45.666666666666686" y="-15.5" />
-                  <point x="991.2968149807946" y="430.0" />
-                  <point x="1080.0046281476743" y="430.0" />
-                  <point x="-38.66666666666663" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
-                  <point x="22.545454545454504" y="-15.5" />
-                  <point x="796.1293080452415" y="617.0" />
-                  <point x="1288.9629614810076" y="617.0" />
-                  <point x="1288.9629614810076" y="430.0" />
-                  <point x="1157.3379614810076" y="430.0" />
-                  <point x="38.66666666666663" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-core:jar:3.2.0">
-                  <point x="-33.81818181818187" y="-15.5" />
-                  <point x="739.765671681605" y="627.0" />
-                  <point x="343.5993251173708" y="627.0" />
-                  <point x="343.5993251173708" y="526.0" />
-                  <point x="363.5" y="526.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
-                  <point x="-39.16666666666663" y="-15.5" />
-                  <point x="957.4171868331202" y="526.0" />
-                  <point x="855.630148314128" y="526.0" />
-                  <point x="855.630148314128" y="430.0" />
-                  <point x="820.130148314128" y="430.0" />
-                  <point x="28.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="0.0" y="-15.5" />
-                  <point x="732.130148314128" y="430.0" />
-                  <point x="721.130148314128" y="430.0" />
-                  <point x="721.130148314128" y="253.0" />
-                  <point x="831.973898314128" y="253.0" />
-                  <point x="-34.0625" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18">
-                  <point x="44.5" y="-15.5" />
-                  <point x="219.5" y="430.0" />
-                  <point x="235.0" y="430.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="21.0" y="-15.5" />
-                  <point x="813.130148314128" y="349.0" />
-                  <point x="797.630148314128" y="349.0" />
-                  <point x="797.630148314128" y="263.0" />
-                  <point x="845.598898314128" y="263.0" />
-                  <point x="-20.4375" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="-45.666666666666686" y="-15.5" />
-                  <point x="899.9634816474613" y="430.0" />
-                  <point x="914.7129614810077" y="430.0" />
-                  <point x="914.7129614810077" y="273.0" />
-                  <point x="886.473898314128" y="273.0" />
-                  <point x="20.4375" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="14.5" y="-15.5" />
-                  <point x="1133.1712948143409" y="349.0" />
-                  <point x="1118.8801483141278" y="349.0" />
-                  <point x="1118.8801483141278" y="152.0" />
-                  <point x="920.9525448143411" y="152.0" />
-                  <point x="25.0" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final">
-                  <point x="-41.0" y="-15.5" />
-                  <point x="134.0" y="526.0" />
-                  <point x="33.0" y="526.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
-                  <point x="23.5" y="-15.5" />
-                  <point x="1020.0838534997869" y="516.0" />
-                  <point x="1118.6712948143409" y="516.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="-24.75" y="-15.5" />
-                  <point x="267.25" y="132.0" />
-                  <point x="850.9525448143411" y="132.0" />
-                  <point x="-45.0" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-core:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0/org.slf4j:slf4j-api:jar:1.7.25">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
-                  <point x="33.0" y="-15.5" />
-                  <point x="-28.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
-                  <point x="43.5" y="-15.5" />
-                  <point x="1162.1712948143409" y="349.0" />
-                  <point x="1163.6301483141278" y="349.0" />
-                  <point x="-34.25" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="-23.5" y="-15.5" />
-                  <point x="973.0838534997869" y="516.0" />
-                  <point x="866.630148314128" y="516.0" />
-                  <point x="866.630148314128" y="273.0" />
-                  <point x="872.848898314128" y="273.0" />
-                  <point x="6.8125" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.3.18.RELEASE">
-                  <point x="-45.09090909090912" y="-15.5" />
-                  <point x="728.4929444088777" y="637.0" />
-                  <point x="292.0" y="637.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="-24.249999999999943" y="-15.5" />
-                  <point x="1024.630148314128" y="263.0" />
-                  <point x="900.098898314128" y="263.0" />
-                  <point x="34.0625" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-support:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
-                  <point x="0.0" y="-15.5" />
-                  <point x="425.0993251173708" y="526.0" />
-                  <point x="404.16666666666663" y="526.0" />
-                  <point x="40.66666666666663" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="39.166666666666686" y="-15.5" />
-                  <point x="1035.7505201664535" y="526.0" />
-                  <point x="1276.8801483141278" y="526.0" />
-                  <point x="1276.8801483141278" y="132.0" />
-                  <point x="940.9525448143411" y="132.0" />
-                  <point x="45.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="aopalliance:aopalliance:jar:1.0">
-                  <point x="33.81818181818187" y="-15.5" />
-                  <point x="807.4020353179687" y="627.0" />
-                  <point x="1348.4629614810078" y="627.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="-33.0" y="-15.5" />
-                  <point x="699.130148314128" y="430.0" />
-                  <point x="692.3493251173709" y="430.0" />
-                  <point x="692.3493251173709" y="152.0" />
-                  <point x="870.9525448143411" y="152.0" />
-                  <point x="-25.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="24.250000000000057" y="-15.5" />
-                  <point x="1073.130148314128" y="162.0" />
-                  <point x="910.9525448143411" y="162.0" />
-                  <point x="15.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-mvel:jar:3.2.0">
-                  <point x="-56.363636363636374" y="-15.5" />
-                  <point x="717.2202171361505" y="647.0" />
-                  <point x="175.0" y="647.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
-                  <point x="7.833333333333314" y="-15.5" />
-                  <point x="1004.4171868331202" y="506.0" />
-                  <point x="1024.6301483141278" y="506.0" />
-                  <point x="-24.25" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="-21.0" y="-15.5" />
-                  <point x="771.130148314128" y="349.0" />
-                  <point x="786.630148314128" y="349.0" />
-                  <point x="786.630148314128" y="162.0" />
-                  <point x="880.9525448143411" y="162.0" />
-                  <point x="-15.0" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.3.18.RELEASE">
-                  <point x="56.363636363636374" y="-15.5" />
-                  <point x="829.9474898634232" y="647.0" />
-                  <point x="1485.9629614810078" y="647.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE">
-                  <point x="12.25" y="-15.5" />
-                  <point x="777.3493251173709" y="526.0" />
-                  <point x="792.130148314128" y="526.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="0.0" y="-15.5" />
-                  <point x="945.630148314128" y="430.0" />
-                  <point x="931.036398314128" y="430.0" />
-                  <point x="931.036398314128" y="172.0" />
-                  <point x="900.9525448143411" y="172.0" />
-                  <point x="5.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="-14.5" y="-15.5" />
-                  <point x="1104.1712948143409" y="349.0" />
-                  <point x="1107.8801483141278" y="349.0" />
-                  <point x="1107.8801483141278" y="253.0" />
-                  <point x="913.723898314128" y="253.0" />
-                  <point x="47.6875" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="24.75" y="-15.5" />
-                  <point x="316.75" y="243.0" />
-                  <point x="818.348898314128" y="243.0" />
-                  <point x="-47.6875" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/com.fasterxml.jackson.core:jackson-core:jar:2.9.5">
-                  <point x="-44.5" y="-15.5" />
-                  <point x="130.5" y="430.0" />
-                  <point x="115.0" y="430.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-messaging:jar:4.3.18.RELEASE">
-                  <point x="-7.833333333333314" y="-15.5" />
-                  <point x="988.7505201664536" y="506.0" />
-                  <point x="945.630148314128" y="506.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-support:jar:3.2.0">
-                  <point x="-22.545454545454504" y="-15.5" />
-                  <point x="751.0383989543325" y="617.0" />
-                  <point x="425.0993251173708" y="617.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-core:jar:3.2.0">
-                  <point x="41.0" y="-15.5" />
-                  <point x="216.0" y="526.0" />
-                  <point x="322.83333333333337" y="526.0" />
-                  <point x="-40.66666666666663" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="0.0" y="-15.5" />
-                  <point x="866.036398314128" y="172.0" />
-                  <point x="890.9525448143411" y="172.0" />
-                  <point x="-5.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.18.RELEASE">
-                  <point x="11.272727272727252" y="-15.5" />
-                  <point x="784.8565807725142" y="607.0" />
-                  <point x="996.5838534997869" y="607.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="-36.75" y="-15.5" />
-                  <point x="728.3493251173709" y="526.0" />
-                  <point x="643.3493251173709" y="526.0" />
-                  <point x="643.3493251173709" y="142.0" />
-                  <point x="860.9525448143411" y="142.0" />
-                  <point x="-35.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE">
-                  <point x="-12.25" y="-15.5" />
-                  <point x="752.8493251173709" y="516.0" />
-                  <point x="732.130148314128" y="516.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
-                  <point x="-43.5" y="-15.5" />
-                  <point x="1075.1712948143409" y="349.0" />
-                  <point x="1073.1301483141278" y="349.0" />
-                  <point x="24.25" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-expression:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
-                  <point x="0.0" y="-15.5" />
-                  <point x="1197.8801483141278" y="142.0" />
-                  <point x="930.9525448143411" y="142.0" />
-                  <point x="35.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE/commons-logging:commons-logging:jar:1.2">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
-                  <point x="36.75" y="-15.5" />
-                  <point x="801.8493251173709" y="526.0" />
-                  <point x="844.630148314128" y="526.0" />
-                  <point x="844.630148314128" y="273.0" />
-                  <point x="859.223898314128" y="273.0" />
-                  <point x="-6.8125" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-instrument-tomcat:jar:4.3.18.RELEASE">
-                  <point x="-11.272727272727252" y="-15.5" />
-                  <point x="762.3111262270597" y="607.0" />
-                  <point x="606.0993251173709" y="607.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:4.3.18.RELEASE">
-                  <point x="45.09090909090912" y="-15.5" />
-                  <point x="818.674762590696" y="637.0" />
-                  <point x="1407.9629614810078" y="637.0" />
-                  <point x="1407.9629614810078" y="349.0" />
-                  <point x="1232.1301483141278" y="349.0" />
-                  <point x="34.25" y="15.5" />
-                </edge>
-                <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.18.RELEASE">
-                  <point x="0.0" y="-15.5" />
-                  <point x="773.583853499787" y="597.0" />
-                  <point x="765.0993251173709" y="597.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="743.5" y="452.0" />
-              <SelectedNodes>
-                <node>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
-              </SelectedNodes>
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/NumberUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/exception/BusinessException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21584">
-              <caret line="1196" column="29" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="29" />
+            <state relative-caret-position="80">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/oom/jvmparms.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/qlexpress/QLExpressFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatURL.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatAPI.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatURLAspect.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatAPIAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-91">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,7 +174,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/nio/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/nio/NIOBufferDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/nio/NIOMappedByteBufferDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/oom/MakeDump.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/oom/jvmparms.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/qlexpress/QLExpressFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/aop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/exception/BusinessException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatAPIAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/NumberUtil.java" />
       </list>
     </option>
   </component>
@@ -570,7 +241,87 @@
             </path>
             <path>
               <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="cat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="qlexpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyRulesDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyRulesDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -585,7 +336,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571188027907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572834629018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -594,19 +345,23 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\easyRulesDemo\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xm.ssit.demo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo\lock" />
-      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xm.ssit.demo.util" />
+      <recent name="com.xm.ssit.demo.util.qlexpress" />
       <recent name="com.xm.ssit.demo.threadpool" />
       <recent name="com.xm.ssit.demo.synchronize" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\easyRulesDemo\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo\util\aop\cat" />
+      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo\util\aop\annotation" />
+      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo\lock" />
+      <recent name="E:\easyRulesDemo\src\main\java\com\xm\ssit\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,13 +376,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.MakeDump">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.reference.Main" />
       <module name="easyRulesDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xm.ssit.demo.reference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.nio.Main" />
+      <module name="easyRulesDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xm.ssit.demo.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -648,32 +416,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.product_consume.Main" />
-      <module name="easyRulesDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xm.ssit.demo.product_consume.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.thread.Main" />
-      <module name="easyRulesDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xm.ssit.demo.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.threadpool.Main" />
       <module name="easyRulesDemo" />
@@ -687,13 +429,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MakeDump" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.oom.MakeDump" />
+      <module name="easyRulesDemo" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx64m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=e:\dump  -Xloggc:e:\dump\gc.log -XX:+PrintGCDetails" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOMappedByteBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xm.ssit.demo.nio.NIOMappedByteBufferDemo" />
+      <module name="easyRulesDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xm.ssit.demo.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MakeDump" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.NIOMappedByteBufferDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIOMappedByteBufferDemo" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -710,7 +481,10 @@
       <workItem from="1565079754588" duration="8781000" />
       <workItem from="1570498054103" duration="15490000" />
       <workItem from="1570669570221" duration="3277000" />
-      <workItem from="1571131390337" duration="3201000" />
+      <workItem from="1571131390337" duration="3829000" />
+      <workItem from="1571208842084" duration="2004000" />
+      <workItem from="1571360776732" duration="4718000" />
+      <workItem from="1572833731322" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1571132385554</created>
@@ -726,11 +500,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571133171983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加依赖包">
+      <created>1571188110827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571188110827</updated>
+    </task>
+    <task id="LOCAL-00004" summary="NIOdemo">
+      <created>1571362582512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571362582512</updated>
+    </task>
+    <task id="LOCAL-00005" summary="oomdemo">
+      <created>1571391761882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571391761882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30749000" />
+    <option name="totallyTimeSpent" value="39083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +539,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -754,7 +549,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47707888" weight="0.3336945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47228146" visible="true" weight="0.505423" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -762,10 +557,10 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3329718" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47547975" weight="0.83206934" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52771854" side_tool="true" visible="true" weight="0.505423" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47121534" weight="0.8318872" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" visible="true" weight="0.3329718" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4978678" weight="0.3329718" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -807,10 +602,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="添加依赖包" />
+    <MESSAGE value="NIOdemo" />
+    <MESSAGE value="oomdemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="oomdemo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/fizzbuzz.yml" />
@@ -1040,7 +852,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/proxy/ServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="209">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="e#250#251#0" expanded="true" />
@@ -1068,40 +880,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/reference/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="494">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21584">
-          <caret line="1196" column="29" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23769">
-          <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1144,14 +927,6 @@
               <point x="1080.0046281476743" y="430.0" />
               <point x="-38.66666666666663" y="15.5" />
             </edge>
-            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
-              <point x="22.545454545454504" y="-15.5" />
-              <point x="796.1293080452415" y="617.0" />
-              <point x="1288.9629614810076" y="617.0" />
-              <point x="1288.9629614810076" y="430.0" />
-              <point x="1157.3379614810076" y="430.0" />
-              <point x="38.66666666666663" y="15.5" />
-            </edge>
             <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.jeasy:easy-rules-core:jar:3.2.0">
               <point x="-33.81818181818187" y="-15.5" />
               <point x="739.765671681605" y="627.0" />
@@ -1167,6 +942,14 @@
               <point x="855.630148314128" y="430.0" />
               <point x="820.130148314128" y="430.0" />
               <point x="28.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
+              <point x="22.545454545454504" y="-15.5" />
+              <point x="796.1293080452415" y="617.0" />
+              <point x="1288.9629614810076" y="617.0" />
+              <point x="1288.9629614810076" y="430.0" />
+              <point x="1157.3379614810076" y="430.0" />
+              <point x="38.66666666666663" y="15.5" />
             </edge>
             <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-beans:jar:4.3.18.RELEASE">
               <point x="0.0" y="-15.5" />
@@ -1206,16 +989,16 @@
               <point x="920.9525448143411" y="152.0" />
               <point x="25.0" y="15.5" />
             </edge>
-            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final">
-              <point x="-41.0" y="-15.5" />
-              <point x="134.0" y="526.0" />
-              <point x="33.0" y="526.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
             <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE">
               <point x="23.5" y="-15.5" />
               <point x="1020.0838534997869" y="516.0" />
               <point x="1118.6712948143409" y="516.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/org.mvel:mvel2:jar:2.4.0.Final">
+              <point x="-41.0" y="-15.5" />
+              <point x="134.0" y="526.0" />
+              <point x="33.0" y="526.0" />
               <point x="0.0" y="15.5" />
             </edge>
             <edge source="org.springframework:spring-oxm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
@@ -1298,12 +1081,6 @@
               <point x="175.0" y="647.0" />
               <point x="0.0" y="15.5" />
             </edge>
-            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
-              <point x="7.833333333333314" y="-15.5" />
-              <point x="1004.4171868331202" y="506.0" />
-              <point x="1024.6301483141278" y="506.0" />
-              <point x="-24.25" y="15.5" />
-            </edge>
             <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE/org.springframework:spring-tx:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
               <point x="-21.0" y="-15.5" />
               <point x="771.130148314128" y="349.0" />
@@ -1311,6 +1088,12 @@
               <point x="786.630148314128" y="162.0" />
               <point x="880.9525448143411" y="162.0" />
               <point x="-15.0" y="15.5" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-aop:jar:4.3.18.RELEASE">
+              <point x="7.833333333333314" y="-15.5" />
+              <point x="1004.4171868331202" y="506.0" />
+              <point x="1024.6301483141278" y="506.0" />
+              <point x="-24.25" y="15.5" />
             </edge>
             <edge source="org.jeasy:easy-rules-mvel:jar:3.2.0" target="org.jeasy:easy-rules-mvel:jar:3.2.0/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5">
               <point x="0.0" y="-15.5" />
@@ -1380,12 +1163,6 @@
               <point x="890.9525448143411" y="172.0" />
               <point x="-5.0" y="15.5" />
             </edge>
-            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.18.RELEASE">
-              <point x="11.272727272727252" y="-15.5" />
-              <point x="784.8565807725142" y="607.0" />
-              <point x="996.5838534997869" y="607.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
             <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-context:jar:4.3.18.RELEASE/org.springframework:spring-core:jar:4.3.18.RELEASE">
               <point x="-36.75" y="-15.5" />
               <point x="728.3493251173709" y="526.0" />
@@ -1393,6 +1170,12 @@
               <point x="643.3493251173709" y="142.0" />
               <point x="860.9525448143411" y="142.0" />
               <point x="-35.0" y="15.5" />
+            </edge>
+            <edge source="com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.18.RELEASE">
+              <point x="11.272727272727252" y="-15.5" />
+              <point x="784.8565807725142" y="607.0" />
+              <point x="996.5838534997869" y="607.0" />
+              <point x="0.0" y="15.5" />
             </edge>
             <edge source="org.springframework:spring-orm:jar:4.3.18.RELEASE" target="org.springframework:spring-orm:jar:4.3.18.RELEASE/org.springframework:spring-jdbc:jar:4.3.18.RELEASE">
               <point x="-12.25" y="-15.5" />
@@ -1445,12 +1228,143 @@
               <point x="0.0" y="15.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="743.5" y="452.0" />
+          <settings layout="Hierarchic Group" zoom="0.30495552731893266" x="777.0" y="349.0" />
           <SelectedNodes>
             <node>com.ssit-xm:easyRulesDemo:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/countdownlatch/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/nio/NIOBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/nio/NIOMappedByteBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/oom/MakeDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5738">
+          <caret line="331" column="28" selection-start-line="331" selection-start-column="18" selection-end-line="331" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21584">
+          <caret line="1196" column="29" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23769">
+          <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/oom/jvmparms.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/aop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatURL.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/annotation/CatAPI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatURLAspect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/qlexpress/QLExpressFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/aop/cat/CatAPIAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xm/ssit/demo/util/NumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
